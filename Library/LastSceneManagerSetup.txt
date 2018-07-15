@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/working but slow.unity
+  isLoaded: 1
+  isActive: 1
