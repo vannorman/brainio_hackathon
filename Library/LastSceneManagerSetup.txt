@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/working but slow.unity
+- path: Assets/Stylized Forest Lite/Demo/Demo.unity
   isLoaded: 1
   isActive: 1

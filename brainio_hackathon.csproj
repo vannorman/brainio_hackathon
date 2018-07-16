@@ -291,8 +291,10 @@
   <ItemGroup>
     <Compile Include="Assets\BTScript.cs" />
     <Compile Include="Assets\canMove.cs" />
+    <Compile Include="Assets\ChannelText.cs" />
     <Compile Include="Assets\Interface.cs" />
     <Compile Include="Assets\MyTcpListener.cs" />
+    <Compile Include="Assets\ReadEEG.cs" />
     <Compile Include="Assets\RGB.cs" />
     <Compile Include="Assets\SerialStreamComm.cs" />
     <Compile Include="Assets\UDPReceive.cs" />
@@ -301,6 +303,27 @@
     <Compile Include="Assets\WRMHL\Scripts\Thread\wrmhlThread_Lines.cs" />
     <Compile Include="Assets\WRMHL\Scripts\wrmhlRead.cs" />
     <Compile Include="Assets\WRMHL\Scripts\wrmhlWrite.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Stylized Forest Lite\Readme.txt" />
+    <None Include="Assets\TerrainBillboardGrass.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
