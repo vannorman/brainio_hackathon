@@ -12,7 +12,6 @@
     // send
     // nc -u 127.0.0.1 8051
  
- dafdsf
 */
 using UnityEngine;
 using System.Collections;
@@ -36,7 +35,7 @@ public class UDPReceive : MonoBehaviour {
 	public int port; // define > init
 
 	// infos
-	public string lastReceivedUDPPacket="";
+	public string lastReceivedUDPPacket=""; //
 	public string allReceivedUDPPackets=""; // clean up this from time to time!
 
 
@@ -113,17 +112,20 @@ public class UDPReceive : MonoBehaviour {
 				IPEndPoint anyIP = new IPEndPoint(IPAddress.Any, 0);
 				byte[] data = client.Receive(ref anyIP);
 
-				// Bytes mit der UTF8-Kodierung in das Textformat kodieren.
-				string text = Encoding.UTF8.GetString(data);
+                // Bytes mit der UTF8-Kodierung in das Textformat kodieren.
+                double test = System.BitConverter.ToDouble(data, 0);// ToSingle(data, 0);
+                //string text = Encoding.UTF8.GetString(data);
 
 				// Den abgerufenen Text anzeigen.
-				print(">> " + text);
+                print(">> " + test);
 
 				// latest UDPpacket
-				lastReceivedUDPPacket=text;
+				//lastReceivedUDPPacket=text;
+                lastReceivedUDPPacket = test.ToString();
 
 				// ....
-				allReceivedUDPPackets=allReceivedUDPPackets+text;
+				//allReceivedUDPPackets=allReceivedUDPPackets+text;
+                allReceivedUDPPackets = allReceivedUDPPackets + test.ToString();
 
 			}
 			catch (Exception err)
