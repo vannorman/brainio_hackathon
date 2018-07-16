@@ -55,11 +55,11 @@
   <ItemGroup>
      <Compile Include="Assets\BTScript.cs" />
      <Compile Include="Assets\canMove.cs" />
-     <Compile Include="Assets\ChannelText.cs" />
      <Compile Include="Assets\Interface.cs" />
      <Compile Include="Assets\MyTcpListener.cs" />
      <Compile Include="Assets\RGB.cs" />
      <Compile Include="Assets\SerialStreamComm.cs" />
+     <Compile Include="Assets\TextChannel.cs" />
      <Compile Include="Assets\UDPReceive.cs" />
      <Compile Include="Assets\WRMHL\Scripts\Manager\wrmhl.cs" />
      <Compile Include="Assets\WRMHL\Scripts\Thread\Common\wrmhlThread.cs" />
