@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "brainio_hackathon", "Assembly-CSharp.csproj", "{C6182D3F-B1C1-26ED-75BB-8173876CBD5C}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "brainio_hackathon", "brainio_hackathon.csproj", "{58927434-CA39-93AE-392B-26C42D676473}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C6182D3F-B1C1-26ED-75BB-8173876CBD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6182D3F-B1C1-26ED-75BB-8173876CBD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6182D3F-B1C1-26ED-75BB-8173876CBD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6182D3F-B1C1-26ED-75BB-8173876CBD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58927434-CA39-93AE-392B-26C42D676473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58927434-CA39-93AE-392B-26C42D676473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58927434-CA39-93AE-392B-26C42D676473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58927434-CA39-93AE-392B-26C42D676473}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
