@@ -1,12 +1,19 @@
+<<<<<<< HEAD
 .vs/*
 .vs/
+=======
+.vs/*
+.vs/
+>>>>>>> 442709d3fb252e09220db831e0c32999220a7e25
 *.meta
 *.sh
 *.o
+obj/
 Library/PlayerDataCache/
 Library/*cache/
 Library/*cache*/
 Library/cache*/
+Library/metadata/
 Temp/
 Library/metadata/*
 
