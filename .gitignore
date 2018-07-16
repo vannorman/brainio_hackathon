@@ -1,10 +1,14 @@
+.vs/*
+.vs/
 *.meta
 *.sh
 *.o
+obj/
 Library/PlayerDataCache/
 Library/*cache/
 Library/*cache*/
 Library/cache*/
+Library/metadata/
 Temp/
 
 
